@@ -1,0 +1,39 @@
+npm install -g yarn
+
+yarn init
+
+yarn add react react-dom
+
+yarn add --dev webpack webpack-dev-server  //실시간로딩으로 빠르게 개발
+
+yarn add --dev babel-core babel-loader babel-preset-react-app
+
+yarn add --dev webpack-cli
+
+yarn start
+
+.gitignore 파일생성하여 업로드안할 폴더명 입력
+node_modules
+build
+
+git사이트에 새프로젝트 생성 https://github.com/kimi532/WordCloud.git
+
+git설치
+https://git-scm.com/download/win
+
+git config --global user.name kimi532
+git config --global user.email kimi532@naver.com
+
+git init
+
+git add .  //전체문서(제외문서제외) 를 반영할수있도록 추가
+
+git commit -m "Inialize React Project"  
+
+git remote add origin https://github.com/kimi532/WordCloud.git  //원격지 넣어줌
+
+git remote -v  //등록된 원격지 주소 확인
+
+git push --set-upstream origin master  //푸쉬진행
+
+
